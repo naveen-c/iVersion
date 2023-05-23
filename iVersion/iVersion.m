@@ -201,7 +201,7 @@ static NSString *const iVersionMacAppStoreURLFormat = @"macappstore://itunes.app
         self.updatePriority = iVersionUpdatePriorityDefault;
         self.useAllAvailableLanguages = YES;
         self.onlyPromptIfMainWindowIsAvailable = YES;
-        self.checkAtLaunch = YES;
+        self.checkAtLaunch = NO;
         self.checkPeriod = 0.0f;
         self.remindPeriod = 1.0f;
         
